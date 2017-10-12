@@ -12,9 +12,9 @@
         "phpunit/phpunit": "~6"
     },
     "autoload": {
-        "psr-4": {"Functional\\": "src/Functional"},
+        "psr-4": {"Math\\": "src/"},
         "files": [
-            "src/Functional/Average.php",
+            "src/Math.php"
         ]
     }
 }
